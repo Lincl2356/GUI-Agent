@@ -1,0 +1,19 @@
+# Agent 配置文件
+
+# OpenAI API 配置
+openai:
+  base_url: "https://"
+  api_key: "your-api-key-here"
+  model: ""
+
+# 任务执行配置
+execution:
+  max_iterations: 50  # 最大循环次数
+  delay_between_actions: 0.1  # 操作间隔时间（秒）
+  delay_between_loops: 1.0  # 每轮循环间隔时间（秒）
+  screenshot_quality: 85  # 截图质量 (1-100)
+
+# 安全配置
+safety:
+  confirm_before_critical: false  # 执行关键操作前是否确认
+  blocked_apps: []  # 禁止操作的应用列表
