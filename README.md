@@ -29,12 +29,6 @@ pip install -r requirements.txt
 
 ## 配置
 
-复制配置模板并填写 API 信息：
-
-```bash
-copy config.yaml.example config.yaml
-```
-
 编辑 `config.yaml`：
 
 ```yaml
@@ -104,12 +98,6 @@ pip install -r requirements.txt
 ```
 
 ## Configuration
-
-Copy the config template and fill in your API credentials:
-
-```bash
-cp config.yaml.example config.yaml
-```
 
 Edit `config.yaml`:
 
