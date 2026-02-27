@@ -16,7 +16,6 @@
 |------|------|
 | `agent.py` | 主程序 |
 | `config.yaml` | 配置文件（需填写 API key） |
-| `config.yaml.example` | 配置模板 |
 | `system_prompt.txt` | 系统提示词 |
 | `requirements.txt` | Python 依赖 |
 | `.gitignore` | Git 忽略配置 |
@@ -86,7 +85,6 @@ A vision-based desktop automation agent that uses multimodal AI to understand sc
 |------|-------------|
 | `agent.py` | Main program |
 | `config.yaml` | Configuration file (requires API key) |
-| `config.yaml.example` | Configuration template |
 | `system_prompt.txt` | System prompt |
 | `requirements.txt` | Python dependencies |
 | `.gitignore` | Git ignore configuration |
